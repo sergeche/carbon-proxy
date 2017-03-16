@@ -1,0 +1,27 @@
+{
+  "name": "carbon-proxy",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./index.js",
+    "start-debug": "DEBUG=* node ./index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Sergey Chikuyonok <serge.che@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "connect": "^3.6.0",
+    "debug": "^2.6.3"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sergeche/carbon-proxy.git"
+  },
+  "bugs": {
+    "url": "https://github.com/sergeche/carbon-proxy/issues"
+  },
+  "homepage": "https://github.com/sergeche/carbon-proxy#readme",
+  "description": ""
+}
