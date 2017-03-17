@@ -7,9 +7,9 @@ const proxy = require('./lib/proxy');
 
 program
 .version(require('./package.json').version)
-.option('-p, --port <n>', 'Server port', parseInt, 8081)
-.option('-h, --host <s>', 'Proxy host', 'localhost')
-.option('-a, --ads <s>', 'Host of ads JSON file', 'srv.carbonads.net')
+.option('-p, --port [n]', 'Server port', Number, 8081)
+.option('-h, --host [s]', 'Proxy host', 'localhost')
+.option('-a, --ads [s]', 'Host of ads JSON file', 'srv.carbonads.net')
 .parse(process.argv);
 
 /**
